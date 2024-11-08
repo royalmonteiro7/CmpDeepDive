@@ -48,7 +48,7 @@ export class ControlComponent implements AfterContentInit {
     });
   }
 
-  ngAfterContentInit(): void {}
+  ngAfterContentInit() {}
 
   onClick() {
     console.log('Clicked!');

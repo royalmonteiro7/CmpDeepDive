@@ -2,6 +2,7 @@
   <ul>
     @for(ticket of tickets;track ticket.id){
     <app-ticket [data]="ticket" (close)="onCloseTicket(ticket.id)" />
+    <!-- {{$last}} {{$first}} {$count}} -->
     }@empty {
     <p>No Tickets Available</p>
     }
